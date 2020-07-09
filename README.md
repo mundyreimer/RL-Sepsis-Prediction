@@ -1,10 +1,10 @@
 # Classifying Sepsis Patients with Reinforcement Learning¶
 
-We designed a reinforcement learning environment and model to classify patients with sepsis at each hour.
+We designed a reinforcement learning [environment and model](https://github.com/mundyreimer/RL-Sepsis-Prediction/blob/master/main.py) to classify patients with sepsis at each hour.
 
 A video presentation of our project can be found [here](https://www.youtube.com/watch?v=kDjoA2zpuMM), with the accompanying slide deck [here](https://docs.google.com/presentation/d/1n1qJeaYtgxrKl1SZzBZogm2CBGtXZaygc47oPcONB-4/edit?usp=sharing).
 
-The step-by-step results of our project can be found in our notebook [here](https://github.com/zs-barnes/RL-Sepsis-Prediction/blob/master/Viz.ipynb).
+The step-by-step results of our project are documented in our notebook [here](https://github.com/zs-barnes/RL-Sepsis-Prediction/blob/master/Viz.ipynb).
 
 See the *Setup* section below for instructions on installation steps and how to run our code on your local machine.
 
@@ -12,7 +12,7 @@ Project Contributors: [Zachary Barnes](https://www.linkedin.com/in/zachary-barne
 
 # Introduction
 
-Sepsis is a life-threatening condition that arises when the body's response to infection causes injury to its tissues and organs. It is the most common cause of death for people who have been hospitalized, and results in a $15.4 billion annual cost in the US.  Early detection and treatment are essential for prevention and a 1-hour delay in antibiotic treatment can lead to 4% increase in hospital mortality.  Given the nature of our data as a multivariate timeseries of patient vital signs, this makes this an ideal classification problem to apply reinforcement learning methods to.
+[Sepsis](https://en.wikipedia.org/wiki/Sepsis) (aka - *blood poisoning*) is a life-threatening condition that arises when the body's response to infection causes injury to its tissues and organs. It is the most common cause of death for people who have been hospitalized, and results in a $15.4 billion annual cost in the US.  Early detection and treatment are essential for prevention and a 1-hour delay in antibiotic treatment can lead to 4% increase in hospital mortality.  Given the nature of our data as a multivariate timeseries of patient vital signs, this makes this an ideal classification problem to apply reinforcement learning methods to.
 
 # Data
 
