@@ -6,6 +6,8 @@ A video presentation of our project can be found [here](https://www.youtube.com/
 
 The step-by-step results of our project can be found in our notebook [here](https://github.com/zs-barnes/RL-Sepsis-Prediction/blob/master/Viz.ipynb).
 
+See the *Setup* section below for instructions on installation steps and how to run our code on your local machine.
+
 Project Contributors: [Zachary Barnes](https://www.linkedin.com/in/zachary-barnes-usf) & [Mundy Reimer](https://www.linkedin.com/in/mundyreimer)
 
 # Introduction
