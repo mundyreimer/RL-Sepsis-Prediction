@@ -43,11 +43,11 @@ To create this environment, we referenced:
 * Creating RL algorithms using the Stable Baselines package [here](https://github.com/hill-a/stable-baselines).
 
 We can briefly frame our reinforcement learning problem as such:
-* Environment - SepsisEnv modeled using OpenAI Gym, where we have a sequential multivariate timeseries of patients' vital signs
-* Agent - A binary classifier that predicts whether patients have sepsis or not
-* States - Each timestep that contains multiple patient vital signs taken at the same time
-* Actions - Binary prediction of whether a patient has sepsis (1) or does not (0)
-* Rewards - The calculated score between 1 and -2 based on the utility function calculated from true/false positive and true/false negative rates
+* *Environment* - SepsisEnv modeled using OpenAI Gym, where we have a sequential multivariate timeseries of patients' vital signs
+* *Agent* - A binary classifier that predicts whether patients have sepsis or not
+* *States* - Each timestep that contains multiple patient vital signs taken at the same time
+* *Actions* - Binary prediction of whether a patient has sepsis (1) or does not (0)
+* *Rewards* - The calculated score between 1 and -2 based on the utility function calculated from true/false positive and true/false negative rates
 
 The algorithm will be evaluated by its performance as a binary classifier using a utility function created by the [PhysioNet Challenge](https://physionet.org/content/challenge-2019/1.0.0/). This utility function rewards classifiers for early predictions of sepsis and penalizes them for late predictions and for predictions of sepsis in non-sepsis patients.
 
